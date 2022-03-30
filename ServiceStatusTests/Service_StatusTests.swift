@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Service_Status
+@testable import ServiceStatus
 
 class Service_StatusTests: XCTestCase {
 

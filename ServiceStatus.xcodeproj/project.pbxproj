@@ -34,13 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF623B9727F3951B00E130C6 /* Service Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Service Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF623B9727F3951B00E130C6 /* ServiceStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServiceStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF623B9A27F3951B00E130C6 /* ServiceStatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusApp.swift; sourceTree = "<group>"; };
 		EF623B9C27F3951B00E130C6 /* ServiceStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusView.swift; sourceTree = "<group>"; };
 		EF623B9E27F3951D00E130C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF623BA727F3951E00E130C6 /* Service StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Service StatusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF623BA727F3951E00E130C6 /* ServiceStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF623BAB27F3951E00E130C6 /* Service_StatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_StatusTests.swift; sourceTree = "<group>"; };
-		EF623BB127F3951E00E130C6 /* Service StatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Service StatusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF623BB127F3951E00E130C6 /* ServiceStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF623BB527F3951E00E130C6 /* Service_StatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_StatusUITests.swift; sourceTree = "<group>"; };
 		EF623BB727F3951E00E130C6 /* Service_StatusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_StatusUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF623BC427F3974800E130C6 /* ServiceStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusViewModel.swift; sourceTree = "<group>"; };
@@ -74,9 +74,9 @@
 		EF623B8E27F3951B00E130C6 = {
 			isa = PBXGroup;
 			children = (
-				EF623B9927F3951B00E130C6 /* Service Status */,
-				EF623BAA27F3951E00E130C6 /* Service StatusTests */,
-				EF623BB427F3951E00E130C6 /* Service StatusUITests */,
+				EF623B9927F3951B00E130C6 /* ServiceStatus */,
+				EF623BAA27F3951E00E130C6 /* ServiceStatusTests */,
+				EF623BB427F3951E00E130C6 /* ServiceStatusUITests */,
 				EF623B9827F3951B00E130C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,47 +84,55 @@
 		EF623B9827F3951B00E130C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF623B9727F3951B00E130C6 /* Service Status.app */,
-				EF623BA727F3951E00E130C6 /* Service StatusTests.xctest */,
-				EF623BB127F3951E00E130C6 /* Service StatusUITests.xctest */,
+				EF623B9727F3951B00E130C6 /* ServiceStatus.app */,
+				EF623BA727F3951E00E130C6 /* ServiceStatusTests.xctest */,
+				EF623BB127F3951E00E130C6 /* ServiceStatusUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF623B9927F3951B00E130C6 /* Service Status */ = {
+		EF623B9927F3951B00E130C6 /* ServiceStatus */ = {
 			isa = PBXGroup;
 			children = (
+				EF623BC627F400FB00E130C6 /* Preview Content */,
 				EF623B9A27F3951B00E130C6 /* ServiceStatusApp.swift */,
 				EF623B9C27F3951B00E130C6 /* ServiceStatusView.swift */,
 				EF623BC427F3974800E130C6 /* ServiceStatusViewModel.swift */,
 				EF623B9E27F3951D00E130C6 /* Assets.xcassets */,
 			);
-			path = "Service Status";
+			path = ServiceStatus;
 			sourceTree = "<group>";
 		};
-		EF623BAA27F3951E00E130C6 /* Service StatusTests */ = {
+		EF623BAA27F3951E00E130C6 /* ServiceStatusTests */ = {
 			isa = PBXGroup;
 			children = (
 				EF623BAB27F3951E00E130C6 /* Service_StatusTests.swift */,
 			);
-			path = "Service StatusTests";
+			path = ServiceStatusTests;
 			sourceTree = "<group>";
 		};
-		EF623BB427F3951E00E130C6 /* Service StatusUITests */ = {
+		EF623BB427F3951E00E130C6 /* ServiceStatusUITests */ = {
 			isa = PBXGroup;
 			children = (
 				EF623BB527F3951E00E130C6 /* Service_StatusUITests.swift */,
 				EF623BB727F3951E00E130C6 /* Service_StatusUITestsLaunchTests.swift */,
 			);
-			path = "Service StatusUITests";
+			path = ServiceStatusUITests;
+			sourceTree = "<group>";
+		};
+		EF623BC627F400FB00E130C6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF623B9627F3951B00E130C6 /* Service Status */ = {
+		EF623B9627F3951B00E130C6 /* ServiceStatus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF623BBB27F3951E00E130C6 /* Build configuration list for PBXNativeTarget "Service Status" */;
+			buildConfigurationList = EF623BBB27F3951E00E130C6 /* Build configuration list for PBXNativeTarget "ServiceStatus" */;
 			buildPhases = (
 				EF623B9327F3951B00E130C6 /* Sources */,
 				EF623B9427F3951B00E130C6 /* Frameworks */,
@@ -134,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = "Service Status";
+			name = ServiceStatus;
 			productName = "Service Status";
-			productReference = EF623B9727F3951B00E130C6 /* Service Status.app */;
+			productReference = EF623B9727F3951B00E130C6 /* ServiceStatus.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EF623BA627F3951E00E130C6 /* Service StatusTests */ = {
+		EF623BA627F3951E00E130C6 /* ServiceStatusTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF623BBE27F3951E00E130C6 /* Build configuration list for PBXNativeTarget "Service StatusTests" */;
+			buildConfigurationList = EF623BBE27F3951E00E130C6 /* Build configuration list for PBXNativeTarget "ServiceStatusTests" */;
 			buildPhases = (
 				EF623BA327F3951E00E130C6 /* Sources */,
 				EF623BA427F3951E00E130C6 /* Frameworks */,
@@ -152,14 +160,14 @@
 			dependencies = (
 				EF623BA927F3951E00E130C6 /* PBXTargetDependency */,
 			);
-			name = "Service StatusTests";
+			name = ServiceStatusTests;
 			productName = "Service StatusTests";
-			productReference = EF623BA727F3951E00E130C6 /* Service StatusTests.xctest */;
+			productReference = EF623BA727F3951E00E130C6 /* ServiceStatusTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EF623BB027F3951E00E130C6 /* Service StatusUITests */ = {
+		EF623BB027F3951E00E130C6 /* ServiceStatusUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF623BC127F3951E00E130C6 /* Build configuration list for PBXNativeTarget "Service StatusUITests" */;
+			buildConfigurationList = EF623BC127F3951E00E130C6 /* Build configuration list for PBXNativeTarget "ServiceStatusUITests" */;
 			buildPhases = (
 				EF623BAD27F3951E00E130C6 /* Sources */,
 				EF623BAE27F3951E00E130C6 /* Frameworks */,
@@ -170,9 +178,9 @@
 			dependencies = (
 				EF623BB327F3951E00E130C6 /* PBXTargetDependency */,
 			);
-			name = "Service StatusUITests";
+			name = ServiceStatusUITests;
 			productName = "Service StatusUITests";
-			productReference = EF623BB127F3951E00E130C6 /* Service StatusUITests.xctest */;
+			productReference = EF623BB127F3951E00E130C6 /* ServiceStatusUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -198,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF623B9227F3951B00E130C6 /* Build configuration list for PBXProject "Service Status" */;
+			buildConfigurationList = EF623B9227F3951B00E130C6 /* Build configuration list for PBXProject "ServiceStatus" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -211,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF623B9627F3951B00E130C6 /* Service Status */,
-				EF623BA627F3951E00E130C6 /* Service StatusTests */,
-				EF623BB027F3951E00E130C6 /* Service StatusUITests */,
+				EF623B9627F3951B00E130C6 /* ServiceStatus */,
+				EF623BA627F3951E00E130C6 /* ServiceStatusTests */,
+				EF623BB027F3951E00E130C6 /* ServiceStatusUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		EF623BA927F3951E00E130C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF623B9627F3951B00E130C6 /* Service Status */;
+			target = EF623B9627F3951B00E130C6 /* ServiceStatus */;
 			targetProxy = EF623BA827F3951E00E130C6 /* PBXContainerItemProxy */;
 		};
 		EF623BB327F3951E00E130C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF623B9627F3951B00E130C6 /* Service Status */;
+			target = EF623B9627F3951B00E130C6 /* ServiceStatus */;
 			targetProxy = EF623BB227F3951E00E130C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +416,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Service Status/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ServiceStatus/Preview Content\"";
 				DEVELOPMENT_TEAM = 7P7887DZ2L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -437,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Service Status/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ServiceStatus/Preview Content\"";
 				DEVELOPMENT_TEAM = 7P7887DZ2L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -475,7 +483,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Service Status.app/Service Status";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ServiceStatus.app/ServiceStatus";
 			};
 			name = Debug;
 		};
@@ -495,7 +503,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Service Status.app/Service Status";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ServiceStatus.app/ServiceStatus";
 			};
 			name = Release;
 		};
@@ -538,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF623B9227F3951B00E130C6 /* Build configuration list for PBXProject "Service Status" */ = {
+		EF623B9227F3951B00E130C6 /* Build configuration list for PBXProject "ServiceStatus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF623BB927F3951E00E130C6 /* Debug */,
@@ -547,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF623BBB27F3951E00E130C6 /* Build configuration list for PBXNativeTarget "Service Status" */ = {
+		EF623BBB27F3951E00E130C6 /* Build configuration list for PBXNativeTarget "ServiceStatus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF623BBC27F3951E00E130C6 /* Debug */,
@@ -556,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF623BBE27F3951E00E130C6 /* Build configuration list for PBXNativeTarget "Service StatusTests" */ = {
+		EF623BBE27F3951E00E130C6 /* Build configuration list for PBXNativeTarget "ServiceStatusTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF623BBF27F3951E00E130C6 /* Debug */,
@@ -565,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF623BC127F3951E00E130C6 /* Build configuration list for PBXNativeTarget "Service StatusUITests" */ = {
+		EF623BC127F3951E00E130C6 /* Build configuration list for PBXNativeTarget "ServiceStatusUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF623BC227F3951E00E130C6 /* Debug */,
