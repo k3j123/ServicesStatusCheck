@@ -10,10 +10,10 @@
 		EF623B9B27F3951B00E130C6 /* ServiceStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623B9A27F3951B00E130C6 /* ServiceStatusApp.swift */; };
 		EF623B9D27F3951B00E130C6 /* ServiceStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623B9C27F3951B00E130C6 /* ServiceStatusView.swift */; };
 		EF623B9F27F3951D00E130C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF623B9E27F3951D00E130C6 /* Assets.xcassets */; };
-		EF623BAC27F3951E00E130C6 /* Service_StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623BAB27F3951E00E130C6 /* Service_StatusTests.swift */; };
 		EF623BB627F3951E00E130C6 /* Service_StatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623BB527F3951E00E130C6 /* Service_StatusUITests.swift */; };
 		EF623BB827F3951E00E130C6 /* Service_StatusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623BB727F3951E00E130C6 /* Service_StatusUITestsLaunchTests.swift */; };
 		EF623BC527F3974800E130C6 /* ServiceStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623BC427F3974800E130C6 /* ServiceStatusViewModel.swift */; };
+		EF623BC827F4A26600E130C6 /* ServiceStatusViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF623BC727F4A26600E130C6 /* ServiceStatusViewModel_Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +39,11 @@
 		EF623B9C27F3951B00E130C6 /* ServiceStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusView.swift; sourceTree = "<group>"; };
 		EF623B9E27F3951D00E130C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF623BA727F3951E00E130C6 /* ServiceStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF623BAB27F3951E00E130C6 /* Service_StatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_StatusTests.swift; sourceTree = "<group>"; };
 		EF623BB127F3951E00E130C6 /* ServiceStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF623BB527F3951E00E130C6 /* Service_StatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_StatusUITests.swift; sourceTree = "<group>"; };
 		EF623BB727F3951E00E130C6 /* Service_StatusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service_StatusUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EF623BC427F3974800E130C6 /* ServiceStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusViewModel.swift; sourceTree = "<group>"; };
+		EF623BC727F4A26600E130C6 /* ServiceStatusViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceStatusViewModel_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		EF623BAA27F3951E00E130C6 /* ServiceStatusTests */ = {
 			isa = PBXGroup;
 			children = (
-				EF623BAB27F3951E00E130C6 /* Service_StatusTests.swift */,
+				EF623BC727F4A26600E130C6 /* ServiceStatusViewModel_Tests.swift */,
 			);
 			path = ServiceStatusTests;
 			sourceTree = "<group>";
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF623BAC27F3951E00E130C6 /* Service_StatusTests.swift in Sources */,
+				EF623BC827F4A26600E130C6 /* ServiceStatusViewModel_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
